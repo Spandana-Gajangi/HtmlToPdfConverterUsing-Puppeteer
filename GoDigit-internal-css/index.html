@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Go Digit</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #fff;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .pt-2 {
+            padding-top: 18px;
+        }
+
+        table .d-flex {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .border-right-0 {
+            border-right: none !important
+        }
+
+        .border-bottom-0 {
+            border-bottom: none !important
+        }
+
+        .main-container {
+            width: 800px;
+            margin: 0px auto;
+            max-width: 100%;
+            font-family: 'Karla', sans-serif;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #000;
+        }
+
+        .page-1 {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .logo img {
+            width: 220px;
+            height: auto;
+        }
+
+        .tagline {
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        .description {
+            padding-top: 50px;
+            font-size: 15px;
+        }
+
+        .description h2 {
+            color: #ffaa00;
+            font-size: 20px;
+        }
+
+        .illustration {
+            margin: 50px auto 80px;
+            width: 500px;
+        }
+
+        .comp-name {
+            padding-top: 10px;
+        }
+
+        .page table {
+            width: 100%;
+        }
+
+        .title {
+            color: #ffaa00;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .with-border-table {
+            border: 1px solid #ffaa00;
+            border-radius: 3px;
+            margin-top: 5px;
+        }
+
+        .with-border-table td:last-child {
+            border-right: 0;
+        }
+
+        .with-border-table td,
+        .with-border-table td:first-child {
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+        }
+
+        .with-border-table tr:last-child td {
+            border-bottom: 0;
+        }
+
+        table td {
+            padding: 5px;
+            line-height: 1.2;
+        }
+
+        table strong {
+            font-size: 13px;
+        }
+
+        .note-wrapper {
+            font-size: 12px;
+            padding-top: 3px;
+        }
+
+        .note-wrapper h6 {
+            color: #ffaa00;
+            font-size: 13px;
+        }
+
+        .top-align {
+            vertical-align: top;
+        }
+
+        .top-align i {
+            display: block;
+            font-style: italic;
+        }
+
+        .yellow-table td:nth-child(2) {
+            width: 190px;
+            background: #ffaa00;
+        }
+
+        .signature-area {
+            margin-top: 10px;
+            padding: 10px 0;
+            border-top: 1px solid #ffaa00;
+            border-bottom: 1px solid #ffaa00;
+        }
+
+        .extra-info {
+            padding: 10px 0;
+            border-bottom: 1px solid #ffaa00;
+        }
+
+        .extra-info a {
+            color: #ffaa00;
+            font-weight: 700;
+        }
+
+        .end-note {
+            padding: 10px 0;
+            text-align: center;
+            font-weight: 700;
+            border-bottom: 1px solid #ffaa00;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="page page-1">
+            <div class="logo"><img src="./images/logo.jpg" alt=""></div>
+            <h1 class="tagline">Digit Private Car Package Policy Schedule</h1>
+
+            <div class="description">
+                <h2>(AKA the paper you pull out when you get pulled over) </h2>
+                <p>This is one of the most important things in your car, along with your car freshener, loose change,
+                    and mobile holder. Carry it with you always. (Not on you, on your smartphone, ideally.)</p>
+            </div>
+
+            <div class="illustration">
+                <img src="./images/illustration.jpg" alt="">
+            </div>
+
+            <p>UIN No.: IRDAN158P0005V01201718</p>
+            <h3 class="comp-name">Go Digit General Insurance Ltd.</h3>
+        </div>
+        <!-- Page 1 End -->
+
+        <div class="page">
+            <h4 class="title">Let’s talk about you. </h4>
+            <table class="without-border-table">
+                <tbody>
+                    <tr>
+                        <td>InsuredName</td>
+                        <td>Mob:xxxxxx9625 </td>
+                    </tr>
+                    <tr>
+                        <td>Aadhar No.:</td>
+                        <td>Email:rxxxxxxs@gxxxl.com </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>There’s one more thing we know about you, you are now a DIGIT customer. That means you have the coolest
+                insurance company working for you.</p>
+
+            <div class="table-box">
+                <h4 class="title pt-2">These are your policy details. </h4>
+                <p>It’s what the fine folks at traffic enforcement will want to see. </p>
+                <table class="with-border-table" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td><strong>Policy No</strong></td>
+                            <td>PolicyNumber</td>
+                            <td><strong>Policy Issue Date</strong></td>
+                            <td>PolicyDate</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><strong>Period of Policy</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>From</strong> </td>
+                            <td>FromDate</td>
+                            <td>00:00:01 </td>
+                        </tr>
+                        <tr>
+                            <td><strong>To</strong> </td>
+                            <td>ToDate</td>
+                            <td> 23:59:59</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>NCB % (Current Policy</strong></td>
+                            <td>0 %</td>
+                            <td><strong>Invoice No</strong></td>
+                            <td>I0000567456</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Coverages Opted </strong></td>
+                            <td>Package Policy</td>
+                            <td><strong>Voluntary Deductible (₹)</strong></td>
+                            <td>--</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Compulsory Deductible (₹)</strong></td>
+                            <td>1000 </td>
+                            <td><strong>Additional Excess (₹)</strong></td>
+                            <td>--</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Add On(s) Opted</strong></td>
+                            <td colspan="3">
+                                Road Side Assistance, Zero Depreciation cover (Cover only 2 claims) , Consumable cover,
+                                Engine Protector, Return to Invoice</td>
+                        </tr>
+
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-box">
+                <h4 class="title pt-2">This is what you paid us.</h4>
+                <p>Think of us as your car’s bodyguards.</p>
+                <table class="with-border-table" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <td><strong>Own Damage Premium [A] (₹)</strong></td>
+                            <td><strong>Liability Premium [B] (₹) </strong></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="d-flex">Own Damage Premium (₹) <span>4973</span></div>
+                            </td>
+                            <td>
+                                <div class="d-flex">Basic Third-Party Liability (₹) <span>2863</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex">Add-On(s) Premium (₹) <span>4916 </span></div>
+                            </td>
+                            <td>
+                                <div class="d-flex">PA cover for Owner-Driver (₹) <span>100</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex">NCB Discount Amount (₹) <span>- 0</span></div>
+                            </td>
+                            <td>
+                                <div class="d-flex">TP for Bi-fuel kit (₹) <span>--</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="d-flex">PA cover for 5 passengers (₹) <span>--</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="d-flex">Legal Liability to Paid Driver (₹) <span>--</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex"><strong>Total OD Premium (₹)</strong> <span>9889</span></div>
+                            </td>
+                            <td>
+                                <div class="d-flex"><strong>Total Act Premium (₹)</strong><span>2963</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-right-0">Net Premium [A+B]</td>
+                            <td>(₹) 12852</td>
+                        </tr>
+                        <tr>
+                            <td class="border-right-0">IGST @ 18% = (₹ 2313)</td>
+                            <td>(₹) 2313</td>
+                        </tr>
+                        <tr>
+                            <td class="border-right-0"><strong>Final Premium</strong></td>
+                            <td><strong>(₹)15165</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="note-wrapper">
+                    <h6>Please Note: </h6>
+                    <p>The above total OD premium is inclusive of all applicable loading / discounts viz (automobile
+                        association memberships, voluntary excess, anti-theft handicap person, driver tuition, fiber
+                        glass, CNG/ LPG unit, geographical extension, imported vehicle etc., wherever applicable).
+                    </p>
+                </div>
+            </div>
+
+            <div class="table-box">
+                <h4 class="title pt-2">This is everything we know about your car. </h4>
+                <p>Other than how much you love it. </p>
+                <table class="with-border-table" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td><strong>Registration No.</strong></td>
+                            <td>MH04HX6148 </td>
+                            <td><strong>RTO Location</strong></td>
+                            <td>THANE MAHARASHTRA </td>
+                            <td><strong>Seating Capacity</strong></td>
+                            <td>5</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Make</strong></td>
+                            <td>HYUNDAI</td>
+                            <td colspan="2"><strong>Model/Vehicle Variant (Sub-Type) </strong></td>
+                            <td colspan="2">GRAND i10 / 1.2 KP DVTVT Sportz (O)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Engine No.</strong></td>
+                            <td>G4LAHM440765 </td>
+                            <td><strong>Chassis No. </strong></td>
+                            <td>MALA851CLHM646071 </td>
+                            <td>Cubic Capacity</td>
+                            <td>1197 CC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fuel Type</strong></td>
+                            <td>Petrol</td>
+                            <td><strong>Year of Regn.</strong></td>
+                            <td>2017 </td>
+                            <td>Odometer Reading (km)</td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vehicle IDV (₹)</strong></td>
+                            <td>480896</td>
+                            <td colspan="3"><strong>IDV of Non-Electrical accessories (₹)</strong></td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td><strong>IDV of CNG/LPG Kit (₹)</strong></td>
+                            <td>--</td>
+                            <td colspan="3"><strong>IDV of Electrical Accessories (₹)</strong></td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Total IDV (₹)</strong></td>
+                            <td colspan="4">480896</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-box">
+                <h4 class="title pt-2">Follow these rules like you follow the rules of the road.</h4>
+                <table class="with-border-table" cellspacing="0">
+                    <tr>
+                        <td>
+                            <div class="top-align">
+                                <strong>Geographical Area</strong>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="top-align">
+                                Any accidental loss, damage and/or liability caused, sustained or incurred within India
+                                shall be covered subject to Policy Terms and Conditions, unless specifically agreed and
+                                endorsed.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="top-align">
+                            <strong>Limitation as to use</strong>
+                            <i>(Which roughly translates to: No crazy stunts with the car.)</i>
+                        </td>
+                        <td class="top-align">
+                            The policy covers use of the vehicle for any purpose other than hire or reward, racing, pace
+                            making, reliability trial, speed testing and use for any purpose in connection with the
+                            Motor Trade.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="top-align">
+                            <strong>Person or Class of persons entitled to drive</strong>
+                            <i>(Or why you shouldn’t ask your 8-year-old to park your car.)</i>
+                        </td>
+                        <td class="top-align">
+                            Any person including the insured<br>
+                            1) Provided that a person driving holds a valid & effective driving license at the time of
+                            the accident and is not disqualified from holding or obtaining such a license.<br>
+                            2) Provided also that the person holding a valid & effective Learner’s license may also
+                            drive the vehicle and that such a person satisfies the requirements of Rule 3 of the Central
+                            Motor Vehicles Rules, 1989 and any subsequent amendment as applicable.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="top-align">
+                            <strong>Limits of Liability</strong>
+                            <i>(How we will help you get back on the road to recovery.)</i>
+                        </td>
+                        <td class="top-align">
+                            1) Under Section I of the policy – IDV as shown in the schedule.<br>
+                            2) Under Section II - 1 (i) of the policy: Death of or bodily injury - Such amount as is
+                            necessary to meet the requirements of the Motor Vehicles Act, 1988.<br>
+                            3) Under Section II - 1 (ii) of the policy: Damage to Third Party Property - ₹ 750000 <br>
+                            4) P.A. Cover for Owner Driver under Section III (CSI) - ₹ 200000.00
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table-box">
+                <h4 class="title pt-2">More important details you don’t want to skim over </h4>
+                <table class="with-border-table" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td><strong>Previous Insurer</strong></td>
+                            <td colspan="3">Bajaj Allianz General Insurance Co. Ltd.</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Previous Policy No.</strong></td>
+                            <td>4567876</td>
+                            <td><strong>Previous Policy Expiry Date</strong></td>
+                            <td>26-Jun-2018</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Details of Existing Damages</strong></td>
+                            <td>--</td>
+                            <td><strong>IMT – Endorsements</strong></td>
+                            <td>IMT-10, IMT-15, IMT-22</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GSTIN/UIN Number</strong></td>
+                            <td>Unregistered </td>
+                            <td><strong>State Code</strong></td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><strong>Premium Payment Details</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Receipt No:</strong></td>
+                            <td colspan="2">R0000606709 </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Date</strong></td>
+                            <td colspan="2">23-Jun-2018</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Financier Details</strong></td>
+                            <td colspan="3">--</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Other Details</strong></td>
+                            <td colspan="3">--</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nominee Details</strong></td>
+                            <td colspan="3">--</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Partner Name & Code</strong></td>
+                            <td>Digit Website, 1000651</td>
+                            <td><strong>Partner Phone <br>Partner Email</strong></td>
+                            <td>-- <br>hello@godigit.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="table-box">
+                <h4 class="title pt-2">Big legal words. </h4>
+                <table class="with-border-table yellow-table" cellspacing="0">
+                    <tr>
+                        <td>
+                            <div class="top-align">
+                                <strong>Policy Version</strong>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="top-align">
+                                <strong>Digit Translation</strong>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="top-align">
+                            <strong>NCB Declaration:</strong>
+                            The premium has been charged and policy has been issued subject to NCB declared by you as an
+                            insured. In the event of NCB found wrongly declared at any point of time during policy
+                            period, all benefits and coverages under the Policy in respect of section I of the Policy
+                            will stand forfeited. If there is any disagreement, write to us within 7 days from the date
+                            of issuance of policy or before the start date of period of insurance whichever is earlier.
+
+                        </td>
+                        <td class="top-align">
+                            Basically, we trust you have been open and honest, and we covering you in good faith.
+                            Remember, trust works both ways.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="top-align">
+                            <strong>Important Notice:</strong> The company may cancel the policy by sending 7 days
+                            notice in case of fraud, misrepresentation, non disclosure of material fact or non
+                            co-operation of the insured. This policy is subject to the standard policy wordings,
+                            warranties and conditions applicable for this product in addition to Indian Motor Tariff.
+
+                        </td>
+                        <td class="top-align">
+                            Honesty is the best policy
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="top-align">
+                            <strong>Break in Insurance:</strong> The policy is issued subject to acceptance of vehicle
+                            risk after evaluation of the pre-inspection report. Third Party and Personal Accident for
+                            Owner Driver covers (Section – II/III) will start immediately post policy issuance, however
+                            OD cover (Section – I) would not commence unless satisfactory pre-inspection report has been
+                            received by us. If the Company does not receive the pre-inspection report within 3 days from
+                            the issuance of policy, the own damage portion of the policy will be cancelled within 3 days
+                            from date of issuance of policy. Accordingly, policy will be amended and balance premium
+                            will be refunded after retaining third party liability portion of the policy. If the
+                            pre-inspection report is adverse, the Company, at its discretion, can amend or cancel the
+                            own damage portion. Accordingly, the policy will be amended and balance premium, if any,
+                            will be refunded.
+                        </td>
+                        <td class="top-align">
+                            If there is a gap in your cover, we need to check your car. If your car is good, we’re cool.
+                            If it’s not, let’s talk.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="top-align">
+                            <strong>Pre-existing Damages:</strong>
+                            All types of pre-existing damages or cost of repair of such damage will be excluded at the
+                            time of claim settlement.
+                        </td>
+                        <td class="top-align">
+                            We can’t cover damages already done to your car, before we took over.
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="top-align">
+                            <strong> Cheque dishonor / Non-receipt of payment:</strong> If premium paid through Cheque,
+                            the policy is void ab-initio in case of dishonor of Cheque or non-receipt of payment.
+                        </td>
+                        <td class="top-align">
+                            Your policy goes through if and when your cheque goes through. You’ll agree it’s only fair.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="top-align">
+                            <strong>Violation of Motor Vehicle Act:</strong> This policy is issued in accordance with
+                            the provision of Chapter X and Chapter XI of MV act, 1988 and any subsequent amendment as
+                            applicable. Any violation will forfeit all benefits and coverages under the Policy The
+                            insured is not indemnified if the vehicle is used or driven otherwise than in accordance
+                            with this Schedule. Any payment made by the Company by reason of wider terms appearing in
+                            Certificate in order to comply with the Motor Vehicle Act, 1988 is recoverable from the
+                            insured. See the Clause headed <strong>(Avoidance Of Certain Terms And Right Of
+                                Recovery)</strong> in the policy.
+                        </td>
+                        <td class="top-align">
+                            Keep your promises and we will keep ours.
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="note-wrapper">
+                    <h6>Note: </h6>
+                    <p> The “Digit Translation” is only to aid your understanding of the policy. The terms and
+                        conditions detailed in the policy document and policy schedule shall prevail in case of any
+                        dispute.</p>
+                </div>
+
+                <div class="signature-area">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>For & On Behalf of Go Digit General Insurance Ltd.</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><img src="./images/sign.jpg" alt="" width="100px"></td>
+                                <td><img src="./images/barcode.jpg" alt="" width="100px"></td>
+                            </tr>
+                            <tr>
+                                <td>Authorized Signatory <br />Printed, Signed, and Executed at Bengaluru</td>
+                                <td>Consolidated Stamp Duty is Deposited with Department of Stamps, Bengaluru</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="extra-info">Go Digit General Insurance Ltd. Address: Atlantis, 95, 4th B Cross Road,
+                    Koramangala Industrial Layout, 5th Block, Bengaluru, Karnataka 560095. IRDAI Reg No. 158 CIN
+                    U66010PN2016PLC167410, GST Reg. No.: 29AACCO4128Q1ZW HSN: 9971/General Insurance Services, GSTIN
+                    Address: Digit Website, Atlantis No 95 4th B Cross Road 5th Block Koramangala Industrial layout,
+                    Bangalore, Karnataka, PIN-560095 In case of claim or any other query, please contact our 24-hour
+                    Call Centre at <a href="tel:1800‑300‑34448">1800‑300‑34448</a>, email us at <a
+                        href="mailto:hello@godigit.com">hello@godigit.com</a>, or visit our website <a
+                        href="https://www.godigit.com/">www.godigit.com</a>.</div>
+
+                <div class="end-note">This is the end of the document and the beginning of a wonderful relationship.
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
